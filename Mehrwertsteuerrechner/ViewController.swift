@@ -32,11 +32,14 @@ class ViewController: UIViewController {
         
         var steuerBerechnung = betrag * steuerSatz / 100
         
-        steuer.text = String (steuerBerechnung)
+        steuer.text = "Die Merhwertsteuer beträgt:" + String(steuerBerechnung) + "€"
         
-        netto.text = "\(betrag)"
+        netto.text = "Der Nettobetrag beträgt:" + "\(betrag)" + "€"
         
-        brutto.text = String(steuerBerechnung + betrag)
+        brutto.text = "Der Gesamtbetrag beträgt:" + String(steuerBerechnung + betrag) + "€"
+        
+        
+        
         
         
         
