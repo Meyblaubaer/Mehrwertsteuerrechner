@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F95E66F27D4B2CF005E8AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95E66E27D4B2CF005E8AF5 /* AppDelegate.swift */; };
+		7F95E67127D4B2CF005E8AF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95E67027D4B2CF005E8AF5 /* SceneDelegate.swift */; };
+		7F95E67327D4B2CF005E8AF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95E67227D4B2CF005E8AF5 /* ViewController.swift */; };
+		7F95E67627D4B2CF005E8AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F95E67427D4B2CF005E8AF5 /* Main.storyboard */; };
+		7F95E67827D4B2D1005E8AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F95E67727D4B2D1005E8AF5 /* Assets.xcassets */; };
+		7F95E67B27D4B2D1005E8AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F95E67927D4B2D1005E8AF5 /* LaunchScreen.storyboard */; };
+		7F95E68627D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95E68527D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.swift */; };
+		7F95E69027D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95E68F27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.swift */; };
+		7F95E69227D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95E69127D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F95E68227D4B2D1005E8AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F95E66327D4B2CF005E8AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F95E66A27D4B2CF005E8AF5;
+			remoteInfo = Mehrwertsteuerrechner;
+		};
+		7F95E68C27D4B2D1005E8AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F95E66327D4B2CF005E8AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F95E66A27D4B2CF005E8AF5;
+			remoteInfo = Mehrwertsteuerrechner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F95E66B27D4B2CF005E8AF5 /* Mehrwertsteuerrechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mehrwertsteuerrechner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F95E66E27D4B2CF005E8AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F95E67027D4B2CF005E8AF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F95E67227D4B2CF005E8AF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		7F95E67527D4B2CF005E8AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F95E67727D4B2D1005E8AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F95E67A27D4B2D1005E8AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F95E67C27D4B2D1005E8AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F95E68127D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MehrwertsteuerrechnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F95E68527D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MehrwertsteuerrechnerTests.swift; sourceTree = "<group>"; };
+		7F95E68B27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MehrwertsteuerrechnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F95E68F27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MehrwertsteuerrechnerUITests.swift; sourceTree = "<group>"; };
+		7F95E69127D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MehrwertsteuerrechnerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F95E66827D4B2CF005E8AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F95E67E27D4B2D1005E8AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F95E68827D4B2D1005E8AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F95E66227D4B2CF005E8AF5 = {
+			isa = PBXGroup;
+			children = (
+				7F95E66D27D4B2CF005E8AF5 /* Mehrwertsteuerrechner */,
+				7F95E68427D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests */,
+				7F95E68E27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests */,
+				7F95E66C27D4B2CF005E8AF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F95E66C27D4B2CF005E8AF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F95E66B27D4B2CF005E8AF5 /* Mehrwertsteuerrechner.app */,
+				7F95E68127D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.xctest */,
+				7F95E68B27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F95E66D27D4B2CF005E8AF5 /* Mehrwertsteuerrechner */ = {
+			isa = PBXGroup;
+			children = (
+				7F95E66E27D4B2CF005E8AF5 /* AppDelegate.swift */,
+				7F95E67027D4B2CF005E8AF5 /* SceneDelegate.swift */,
+				7F95E67227D4B2CF005E8AF5 /* ViewController.swift */,
+				7F95E67427D4B2CF005E8AF5 /* Main.storyboard */,
+				7F95E67727D4B2D1005E8AF5 /* Assets.xcassets */,
+				7F95E67927D4B2D1005E8AF5 /* LaunchScreen.storyboard */,
+				7F95E67C27D4B2D1005E8AF5 /* Info.plist */,
+			);
+			path = Mehrwertsteuerrechner;
+			sourceTree = "<group>";
+		};
+		7F95E68427D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F95E68527D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.swift */,
+			);
+			path = MehrwertsteuerrechnerTests;
+			sourceTree = "<group>";
+		};
+		7F95E68E27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F95E68F27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.swift */,
+				7F95E69127D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITestsLaunchTests.swift */,
+			);
+			path = MehrwertsteuerrechnerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F95E66A27D4B2CF005E8AF5 /* Mehrwertsteuerrechner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F95E69527D4B2D1005E8AF5 /* Build configuration list for PBXNativeTarget "Mehrwertsteuerrechner" */;
+			buildPhases = (
+				7F95E66727D4B2CF005E8AF5 /* Sources */,
+				7F95E66827D4B2CF005E8AF5 /* Frameworks */,
+				7F95E66927D4B2CF005E8AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mehrwertsteuerrechner;
+			productName = Mehrwertsteuerrechner;
+			productReference = 7F95E66B27D4B2CF005E8AF5 /* Mehrwertsteuerrechner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F95E68027D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F95E69827D4B2D1005E8AF5 /* Build configuration list for PBXNativeTarget "MehrwertsteuerrechnerTests" */;
+			buildPhases = (
+				7F95E67D27D4B2D1005E8AF5 /* Sources */,
+				7F95E67E27D4B2D1005E8AF5 /* Frameworks */,
+				7F95E67F27D4B2D1005E8AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F95E68327D4B2D1005E8AF5 /* PBXTargetDependency */,
+			);
+			name = MehrwertsteuerrechnerTests;
+			productName = MehrwertsteuerrechnerTests;
+			productReference = 7F95E68127D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F95E68A27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F95E69B27D4B2D1005E8AF5 /* Build configuration list for PBXNativeTarget "MehrwertsteuerrechnerUITests" */;
+			buildPhases = (
+				7F95E68727D4B2D1005E8AF5 /* Sources */,
+				7F95E68827D4B2D1005E8AF5 /* Frameworks */,
+				7F95E68927D4B2D1005E8AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F95E68D27D4B2D1005E8AF5 /* PBXTargetDependency */,
+			);
+			name = MehrwertsteuerrechnerUITests;
+			productName = MehrwertsteuerrechnerUITests;
+			productReference = 7F95E68B27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F95E66327D4B2CF005E8AF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7F95E66A27D4B2CF005E8AF5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7F95E68027D4B2D1005E8AF5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7F95E66A27D4B2CF005E8AF5;
+					};
+					7F95E68A27D4B2D1005E8AF5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7F95E66A27D4B2CF005E8AF5;
+					};
+				};
+			};
+			buildConfigurationList = 7F95E66627D4B2CF005E8AF5 /* Build configuration list for PBXProject "Mehrwertsteuerrechner" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F95E66227D4B2CF005E8AF5;
+			productRefGroup = 7F95E66C27D4B2CF005E8AF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F95E66A27D4B2CF005E8AF5 /* Mehrwertsteuerrechner */,
+				7F95E68027D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests */,
+				7F95E68A27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F95E66927D4B2CF005E8AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F95E67B27D4B2D1005E8AF5 /* LaunchScreen.storyboard in Resources */,
+				7F95E67827D4B2D1005E8AF5 /* Assets.xcassets in Resources */,
+				7F95E67627D4B2CF005E8AF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F95E67F27D4B2D1005E8AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F95E68927D4B2D1005E8AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F95E66727D4B2CF005E8AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F95E67327D4B2CF005E8AF5 /* ViewController.swift in Sources */,
+				7F95E66F27D4B2CF005E8AF5 /* AppDelegate.swift in Sources */,
+				7F95E67127D4B2CF005E8AF5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F95E67D27D4B2D1005E8AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F95E68627D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F95E68727D4B2D1005E8AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F95E69227D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITestsLaunchTests.swift in Sources */,
+				7F95E69027D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F95E68327D4B2D1005E8AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F95E66A27D4B2CF005E8AF5 /* Mehrwertsteuerrechner */;
+			targetProxy = 7F95E68227D4B2D1005E8AF5 /* PBXContainerItemProxy */;
+		};
+		7F95E68D27D4B2D1005E8AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F95E66A27D4B2CF005E8AF5 /* Mehrwertsteuerrechner */;
+			targetProxy = 7F95E68C27D4B2D1005E8AF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F95E67427D4B2CF005E8AF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F95E67527D4B2CF005E8AF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F95E67927D4B2D1005E8AF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F95E67A27D4B2D1005E8AF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F95E69327D4B2D1005E8AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F95E69427D4B2D1005E8AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F95E69627D4B2D1005E8AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AX93533HR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mehrwertsteuerrechner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lernen.Mehrwertsteuerrechner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F95E69727D4B2D1005E8AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AX93533HR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Mehrwertsteuerrechner/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lernen.Mehrwertsteuerrechner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F95E69927D4B2D1005E8AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lernen.MehrwertsteuerrechnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mehrwertsteuerrechner.app/Mehrwertsteuerrechner";
+			};
+			name = Debug;
+		};
+		7F95E69A27D4B2D1005E8AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lernen.MehrwertsteuerrechnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mehrwertsteuerrechner.app/Mehrwertsteuerrechner";
+			};
+			name = Release;
+		};
+		7F95E69C27D4B2D1005E8AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lernen.MehrwertsteuerrechnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mehrwertsteuerrechner;
+			};
+			name = Debug;
+		};
+		7F95E69D27D4B2D1005E8AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lernen.MehrwertsteuerrechnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mehrwertsteuerrechner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F95E66627D4B2CF005E8AF5 /* Build configuration list for PBXProject "Mehrwertsteuerrechner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F95E69327D4B2D1005E8AF5 /* Debug */,
+				7F95E69427D4B2D1005E8AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F95E69527D4B2D1005E8AF5 /* Build configuration list for PBXNativeTarget "Mehrwertsteuerrechner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F95E69627D4B2D1005E8AF5 /* Debug */,
+				7F95E69727D4B2D1005E8AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F95E69827D4B2D1005E8AF5 /* Build configuration list for PBXNativeTarget "MehrwertsteuerrechnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F95E69927D4B2D1005E8AF5 /* Debug */,
+				7F95E69A27D4B2D1005E8AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F95E69B27D4B2D1005E8AF5 /* Build configuration list for PBXNativeTarget "MehrwertsteuerrechnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F95E69C27D4B2D1005E8AF5 /* Debug */,
+				7F95E69D27D4B2D1005E8AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F95E66327D4B2CF005E8AF5 /* Project object */;
+}
