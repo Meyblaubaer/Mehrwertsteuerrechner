@@ -38,19 +38,32 @@ class ViewController: UIViewController {
 
     
     @IBAction func berechnen(_ sender: UIButton) {
-        let betrag = Float(kaufBetrag.text!) ?? 0
+        
         let steuerSatz = Float(mwstSatz.text!) ?? 0
+        
+//        let replaced = kaufBetrag.text!.replacingOccurrences(of: ",", with: ".")
+        
+//        let betrag = Float(replaced) ?? 0
+        let betrag = Float(kaufBetrag.text!.replacingOccurrences(of: ",", with: ".")) ?? 0
+
+        
+        
         
         
         
         let steuerBerechnung = betrag * steuerSatz / 100
-        let gerundetsteuerBerechnung = round(steuerBerechnung*100) / 100
+//        let gerundetsteuerBerechnung = round(steuerBerechnung*100) / 100
         
-        steuer.text = "Die Mehrwertsteuer beträgt:" + String(gerundetsteuerBerechnung) + "€"
+//        steuer.text = "Die Mehrwertsteuer beträgt:" + String(gerundetsteuerBerechnung) + "€"
         
-        netto.text = "Der Nettobetrag beträgt:" + "\(betrag)" + "€"
+//        netto.text = "Der Nettobetrag beträgt:" + "\(betrag)" + "€"
         
-        brutto.text = "Der Gesamtbetrag beträgt:" + String(gerundetsteuerBerechnung + betrag) + "€"
+//        brutto.text = "Der Gesamtbetrag beträgt:" + String(gerundetsteuerBerechnung + betrag) + "€"
+        
+        steuer.text = String(format: "Die Mehrwertsteuer beträgt: %.2f€", steuerBerechnung)
+        netto.text = String(format: "Der Nettobetrag beträgt: %.2f€", betrag)
+        brutto.text = String(format: "Der Gesamtbetrag beträgt: %.2f€", steuerBerechnung + betrag)
+
         
     }
     
