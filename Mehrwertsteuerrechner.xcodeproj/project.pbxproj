@@ -45,15 +45,15 @@
 		7F95E66E27D4B2CF005E8AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F95E67027D4B2CF005E8AF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7F95E67227D4B2CF005E8AF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
-		7F95E67527D4B2CF005E8AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F95E67727D4B2D1005E8AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7F95E67A27D4B2D1005E8AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F95E67C27D4B2D1005E8AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F95E68127D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MehrwertsteuerrechnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F95E68527D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MehrwertsteuerrechnerTests.swift; sourceTree = "<group>"; };
 		7F95E68B27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MehrwertsteuerrechnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F95E68F27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MehrwertsteuerrechnerUITests.swift; sourceTree = "<group>"; };
 		7F95E69127D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MehrwertsteuerrechnerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F99BAE62955CAE1007E873D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F99BAE72955CAE2007E873D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,7 +257,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = 7F95E66227D4B2CF005E8AF5;
 			productRefGroup = 7F95E66C27D4B2CF005E8AF5 /* Products */;
@@ -360,7 +359,7 @@
 		7F95E67427D4B2CF005E8AF5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7F95E67527D4B2CF005E8AF5 /* Base */,
+				7F99BAE62955CAE1007E873D /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -368,7 +367,7 @@
 		7F95E67927D4B2D1005E8AF5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7F95E67A27D4B2D1005E8AF5 /* Base */,
+				7F99BAE72955CAE2007E873D /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -559,7 +558,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7AX93533HR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mehrwertsteuerrechner/Info.plist;
@@ -589,7 +588,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 7AX93533HR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mehrwertsteuerrechner/Info.plist;

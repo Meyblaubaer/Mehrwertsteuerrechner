@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var steuer: UILabel!
     
     @IBOutlet weak var brutto: UILabel!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -27,6 +30,7 @@ class ViewController: UIViewController {
         let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
+        
 
     }
 
@@ -37,13 +41,16 @@ class ViewController: UIViewController {
         let betrag = Float(kaufBetrag.text!) ?? 0
         let steuerSatz = Float(mwstSatz.text!) ?? 0
         
-        let steuerBerechnung = betrag * steuerSatz / 100
         
-        steuer.text = "Die Merhwertsteuer beträgt:" + String(steuerBerechnung) + "€"
+        
+        let steuerBerechnung = betrag * steuerSatz / 100
+        let gerundetsteuerBerechnung = round(steuerBerechnung*100) / 100
+        
+        steuer.text = "Die Mehrwertsteuer beträgt:" + String(gerundetsteuerBerechnung) + "€"
         
         netto.text = "Der Nettobetrag beträgt:" + "\(betrag)" + "€"
         
-        brutto.text = "Der Gesamtbetrag beträgt:" + String(steuerBerechnung + betrag) + "€"
+        brutto.text = "Der Gesamtbetrag beträgt:" + String(gerundetsteuerBerechnung + betrag) + "€"
         
     }
     
