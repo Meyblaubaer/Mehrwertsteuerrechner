@@ -23,33 +23,27 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+
     }
+
+
 
     
     @IBAction func berechnen(_ sender: UIButton) {
-        let betrag = Int(kaufBetrag.text!) ?? 0
-        let steuerSatz = Int(mwstSatz.text!) ?? 0
+        let betrag = Float(kaufBetrag.text!) ?? 0
+        let steuerSatz = Float(mwstSatz.text!) ?? 0
         
-        var steuerBerechnung = betrag * steuerSatz / 100
+        let steuerBerechnung = betrag * steuerSatz / 100
         
         steuer.text = "Die Merhwertsteuer beträgt:" + String(steuerBerechnung) + "€"
         
         netto.text = "Der Nettobetrag beträgt:" + "\(betrag)" + "€"
         
         brutto.text = "Der Gesamtbetrag beträgt:" + String(steuerBerechnung + betrag) + "€"
-        
-        
-        
-        
-        
-        
-        
-
-        
-        
-        
-        
-        
         
     }
     

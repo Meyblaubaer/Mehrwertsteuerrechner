@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F42EE6427E63C2300D7E462 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F42EE6327E63C2300D7E462 /* Cocoa.framework */; };
+		7F42EE6627E63C2300D7E462 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F42EE6527E63C2300D7E462 /* XcodeKit.framework */; };
 		7F95E66F27D4B2CF005E8AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95E66E27D4B2CF005E8AF5 /* AppDelegate.swift */; };
 		7F95E67127D4B2CF005E8AF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95E67027D4B2CF005E8AF5 /* SceneDelegate.swift */; };
 		7F95E67327D4B2CF005E8AF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F95E67227D4B2CF005E8AF5 /* ViewController.swift */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7F42EE6127E63C2300D7E462 /* UITextField+Extensions.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "UITextField+Extensions.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F42EE6327E63C2300D7E462 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		7F42EE6527E63C2300D7E462 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
 		7F95E66B27D4B2CF005E8AF5 /* Mehrwertsteuerrechner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mehrwertsteuerrechner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F95E66E27D4B2CF005E8AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F95E67027D4B2CF005E8AF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +57,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7F42EE5E27E63C2300D7E462 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F42EE6427E63C2300D7E462 /* Cocoa.framework in Frameworks */,
+				7F42EE6627E63C2300D7E462 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F95E66827D4B2CF005E8AF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +90,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F42EE6227E63C2300D7E462 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F42EE6327E63C2300D7E462 /* Cocoa.framework */,
+				7F42EE6527E63C2300D7E462 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7F95E66227D4B2CF005E8AF5 = {
 			isa = PBXGroup;
 			children = (
 				7F95E66D27D4B2CF005E8AF5 /* Mehrwertsteuerrechner */,
 				7F95E68427D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests */,
 				7F95E68E27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests */,
+				7F42EE6227E63C2300D7E462 /* Frameworks */,
 				7F95E66C27D4B2CF005E8AF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +116,7 @@
 				7F95E66B27D4B2CF005E8AF5 /* Mehrwertsteuerrechner.app */,
 				7F95E68127D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests.xctest */,
 				7F95E68B27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests.xctest */,
+				7F42EE6127E63C2300D7E462 /* UITextField+Extensions.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -130,6 +155,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7F42EE6027E63C2300D7E462 /* UITextField+Extensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F42EE6E27E63C2300D7E462 /* Build configuration list for PBXNativeTarget "UITextField+Extensions" */;
+			buildPhases = (
+				7F42EE5D27E63C2300D7E462 /* Sources */,
+				7F42EE5E27E63C2300D7E462 /* Frameworks */,
+				7F42EE5F27E63C2300D7E462 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextField+Extensions";
+			productName = "UITextField+Extensions";
+			productReference = 7F42EE6127E63C2300D7E462 /* UITextField+Extensions.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
 		7F95E66A27D4B2CF005E8AF5 /* Mehrwertsteuerrechner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F95E69527D4B2D1005E8AF5 /* Build configuration list for PBXNativeTarget "Mehrwertsteuerrechner" */;
@@ -191,8 +233,11 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					7F42EE6027E63C2300D7E462 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					7F95E66A27D4B2CF005E8AF5 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -222,11 +267,19 @@
 				7F95E66A27D4B2CF005E8AF5 /* Mehrwertsteuerrechner */,
 				7F95E68027D4B2D1005E8AF5 /* MehrwertsteuerrechnerTests */,
 				7F95E68A27D4B2D1005E8AF5 /* MehrwertsteuerrechnerUITests */,
+				7F42EE6027E63C2300D7E462 /* UITextField+Extensions */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7F42EE5F27E63C2300D7E462 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F95E66927D4B2CF005E8AF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,6 +307,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7F42EE5D27E63C2300D7E462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7F95E66727D4B2CF005E8AF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,6 +376,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7F42EE6F27E63C2300D7E462 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "UITextField+Extensions/UITextField_Extensions.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AX93533HR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UITextField+Extensions/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UITextField+Extensions";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.sven.UITextField-Extensions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7F42EE7027E63C2300D7E462 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "UITextField+Extensions/UITextField_Extensions.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7AX93533HR;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UITextField+Extensions/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UITextField+Extensions";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.sven.UITextField-Extensions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		7F95E69327D4B2D1005E8AF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -439,7 +559,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 7AX93533HR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mehrwertsteuerrechner/Info.plist;
@@ -469,7 +589,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 7AX93533HR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mehrwertsteuerrechner/Info.plist;
@@ -567,6 +687,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7F42EE6E27E63C2300D7E462 /* Build configuration list for PBXNativeTarget "UITextField+Extensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F42EE6F27E63C2300D7E462 /* Debug */,
+				7F42EE7027E63C2300D7E462 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7F95E66627D4B2CF005E8AF5 /* Build configuration list for PBXProject "Mehrwertsteuerrechner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
